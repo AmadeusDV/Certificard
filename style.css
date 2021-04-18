@@ -1,0 +1,81 @@
+
+/* https://developer.mozilla.org/pt-BR/docs/Web/CSS/Reference */
+
+body {
+    background-image: url('http://s2.glbimg.com/rL9zpgW-o7NXt85fLOzLrp9yB_M=/e.glbimg.com/og/ed/f/original/2016/11/25/036_043_ga305.jpg');
+    background-size: cover, cover;
+    font-family:'Roboto', sans-serif;
+    /* https://fonts.google.com/ */
+  }
+  
+  h1 {
+    text-align: center
+    
+  }
+  
+  section {
+    -webkit-box-shadow: 0px 1px 15px 4px #000000; 
+    box-shadow: 0px 1px 15px 4px #000000;
+    /* https://html-css-js.com/css/generator/box-shadow/ */
+    max-width: 600px;
+    background-color: #bc9aff;
+    border: 3px solid black;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  section h1 {
+    color: #000f3c;
+    font-size: 20px;
+  }
+  
+  section h2{
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  header {
+    background-image: url(https://media3.giphy.com/media/KDhBaYe8elASxVDvGh/giphy.gif?cid=ecf05e47al0o5zwxcfcc3ccxw04ol1auv68k38emw51dg62e&rid=giphy.gif);
+    /* https://giphy.com/ */
+    background-size: 150px;
+    /* https://developer.mozilla.org/pt-BR/docs/Web/CSS/background-size*/
+    height: 90px;
+  }
+  
+  div {
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid black;
+    background-image: url(https://st4.depositphotos.com/5303366/41769/v/600/depositphotos_417696778-stock-video-animated-texture-in-4k-3d.jpg) ;
+    border-radius: 5px;
+    background-size: cover;
+  }
+  
+  ol {
+    transform: translateX(25%)  
+  }
+  
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(-50%);
+    border: 5px solid purple
+  }
+  
+  a {
+    text-decoration: none;
+    color: white
+  }
+  
+  a:hover {
+    text-decoration: underline
+  }
+  
